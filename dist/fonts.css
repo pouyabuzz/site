@@ -1,0 +1,19 @@
+/* Replace these files with your exported webfonts when ready.
+   A missing file falls back to the browser's standard serif font. */
+@font-face {
+  font-family: 'Pouya Latin';
+  src: url('fonts/pouya-latin.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pouya Persian';
+  src: url('fonts/pouya-persian.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body { font-family: 'Pouya Latin', Georgia, serif; }
+:lang(fa) { font-family: 'Pouya Persian', Tahoma, serif; line-height: 1.9; }
+/* dir="rtl" controls direction independently of language and font. */

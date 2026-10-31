@@ -42,6 +42,12 @@ After deployment, add pouya.buzz under Custom domains and follow Cloudflare's DN
 
 Open dist/index.html in your browser. No server or package install is needed.
 
+For Cloudflare Wrangler aliases, run:
+
+- `npm link`
+- `npx popop` for deploy
+- `npx prepop` for preview
+
 ## Files
 
 - dist/index.html: homepage, notes and links.

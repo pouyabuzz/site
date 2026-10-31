@@ -1,0 +1,18 @@
+{
+  "name": "pouya-buzz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "preview": "wrangler preview",
+    "popop": "wrangler deploy",
+    "prepop": "wrangler preview"
+  },
+  "bin": {
+    "popop": "bin/popop.js",
+    "prepop": "bin/prepop.js"
+  },
+  "devDependencies": {
+    "wrangler": "^3.107.3"
+  }
+}

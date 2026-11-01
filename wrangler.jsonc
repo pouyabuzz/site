@@ -2,6 +2,12 @@
   "$schema": "https://www.unpkg.com/wrangler@latest/config-schema.json",
   "name": "pouyabuzz",
   "compatibility_date": "2026-11-01",
+  "routes": [
+    {
+      "pattern": "pouya.buzz",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./dist"
   }
